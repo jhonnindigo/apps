@@ -1023,7 +1023,7 @@ export default function LandingPage() {
               </div>
             </div>
 
-            <Tabs defaultValue="trimestral" className="w-full max-w-md mx-auto mb-12">
+            <Tabs defaultValue="trimestral" className="w-full max-w-5xl mx-auto mb-12">
               <TabsList className="grid w-full grid-cols-3 bg-zinc-800">
                 <TabsTrigger value="trimestral" className="data-[state=active]:bg-zinc-900">
                   Trimestral
@@ -1037,10 +1037,10 @@ export default function LandingPage() {
               </TabsList>
 
               <TabsContent value="trimestral" className="mt-4">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8 max-w-5xl mx-auto">
                   <div className="relative group">
                     <div className="absolute inset-0 bg-gradient-to-br from-zinc-500/10 to-zinc-500/10 rounded-3xl blur-xl -z-10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    <div className="h-full bg-zinc-900 border border-zinc-800 rounded-3xl shadow-sm p-8 transition-all duration-200 group-hover:shadow-xl group-hover:border-zinc-700">
+                    <div className="h-full bg-zinc-900 border border-zinc-800 rounded-3xl shadow-sm p-4 sm:p-6 md:p-8 lg:p-10 transition-all duration-200 group-hover:shadow-xl group-hover:border-zinc-700">
                       <div className="flex flex-col h-full">
                         <div className="mb-6">
                           <div className="text-lg font-bold mb-1 text-white">1. SMMA Express</div>
@@ -1082,7 +1082,7 @@ export default function LandingPage() {
                         Más Popular
                       </div>
                     </div>
-                    <div className="h-full bg-zinc-900 border-2 border-purple-900/50 rounded-3xl shadow-xl p-8 mt-4">
+                    <div className="h-full bg-zinc-900 border-2 border-purple-900/50 rounded-3xl shadow-xl p-4 sm:p-6 md:p-8 lg:p-10 mt-4">
                       <div className="flex flex-col h-full">
                         <div className="mb-6">
                           <div className="text-lg font-bold mb-1 text-white">2. Sistema Pro</div>
@@ -1122,7 +1122,7 @@ export default function LandingPage() {
 
                   <div className="relative group">
                     <div className="absolute inset-0 bg-gradient-to-br from-zinc-500/10 to-zinc-500/10 rounded-3xl blur-xl -z-10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    <div className="h-full bg-zinc-900 border border-zinc-800 rounded-3xl shadow-sm p-8 transition-all duration-200 group-hover:shadow-xl group-hover:border-zinc-700">
+                    <div className="h-full bg-zinc-900 border border-zinc-800 rounded-3xl shadow-sm p-4 sm:p-6 md:p-8 lg:p-10 transition-all duration-200 group-hover:shadow-xl group-hover:border-zinc-700">
                       <div className="flex flex-col h-full">
                         <div className="mb-6">
                           <div className="text-lg font-bold mb-1 text-white">3. Growth Partner 72™</div>
@@ -1166,10 +1166,10 @@ export default function LandingPage() {
               </TabsContent>
 
               <TabsContent value="semestral" className="mt-4">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8 max-w-5xl mx-auto">
                   <div className="relative group">
                     <div className="absolute inset-0 bg-gradient-to-br from-zinc-500/10 to-zinc-500/10 rounded-3xl blur-xl -z-10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    <div className="h-full bg-zinc-900 border border-zinc-800 rounded-3xl shadow-sm p-8 transition-all duration-200 group-hover:shadow-xl group-hover:border-zinc-700">
+                    <div className="h-full bg-zinc-900 border border-zinc-800 rounded-3xl shadow-sm p-4 sm:p-6 md:p-8 lg:p-10 transition-all duration-200 group-hover:shadow-xl group-hover:border-zinc-700">
                       <div className="flex flex-col h-full">
                         <div className="mb-6">
                           <div className="text-lg font-bold mb-1 text-white">1. SMMA Express</div>
@@ -1219,7 +1219,7 @@ export default function LandingPage() {
                         Más Popular
                       </div>
                     </div>
-                    <div className="h-full bg-zinc-900 border-2 border-purple-900/50 rounded-3xl shadow-xl p-8 mt-4">
+                    <div className="h-full bg-zinc-900 border-2 border-purple-900/50 rounded-3xl shadow-xl p-4 sm:p-6 md:p-8 lg:p-10 mt-4">
                       <div className="flex flex-col h-full">
                         <div className="mb-6">
                           <div className="text-lg font-bold mb-1 text-white">2. Sistema Pro</div>
@@ -1267,7 +1267,7 @@ export default function LandingPage() {
 
                   <div className="relative group">
                     <div className="absolute inset-0 bg-gradient-to-br from-zinc-500/10 to-zinc-500/10 rounded-3xl blur-xl -z-10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    <div className="h-full bg-zinc-900 border border-zinc-800 rounded-3xl shadow-sm p-8 transition-all duration-200 group-hover:shadow-xl group-hover:border-zinc-700">
+                    <div className="h-full bg-zinc-900 border border-zinc-800 rounded-3xl shadow-sm p-4 sm:p-6 md:p-8 lg:p-10 transition-all duration-200 group-hover:shadow-xl group-hover:border-zinc-700">
                       <div className="flex flex-col h-full">
                         <div className="mb-6">
                           <div className="text-lg font-bold mb-1 text-white">3. Growth Partner 72™</div>
@@ -1319,10 +1319,10 @@ export default function LandingPage() {
               </TabsContent>
 
               <TabsContent value="anual" className="mt-4">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8 max-w-5xl mx-auto">
                   <div className="relative group">
                     <div className="absolute inset-0 bg-gradient-to-br from-zinc-500/10 to-zinc-500/10 rounded-3xl blur-xl -z-10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    <div className="h-full bg-zinc-900 border border-zinc-800 rounded-3xl shadow-sm p-8 transition-all duration-200 group-hover:shadow-xl group-hover:border-zinc-700">
+                    <div className="h-full bg-zinc-900 border border-zinc-800 rounded-3xl shadow-sm p-4 sm:p-6 md:p-8 lg:p-10 transition-all duration-200 group-hover:shadow-xl group-hover:border-zinc-700">
                       <div className="flex flex-col h-full">
                         <div className="mb-6">
                           <div className="text-lg font-bold mb-1 text-white">1. SMMA Express</div>
@@ -1372,7 +1372,7 @@ export default function LandingPage() {
                         Más Popular
                       </div>
                     </div>
-                    <div className="h-full bg-zinc-900 border-2 border-purple-900/50 rounded-3xl shadow-xl p-8 mt-4">
+                    <div className="h-full bg-zinc-900 border-2 border-purple-900/50 rounded-3xl shadow-xl p-4 sm:p-6 md:p-8 lg:p-10 mt-4">
                       <div className="flex flex-col h-full">
                         <div className="mb-6">
                           <div className="text-lg font-bold mb-1 text-white">2. Sistema Pro</div>
@@ -1420,7 +1420,7 @@ export default function LandingPage() {
 
                   <div className="relative group">
                     <div className="absolute inset-0 bg-gradient-to-br from-zinc-500/10 to-zinc-500/10 rounded-3xl blur-xl -z-10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    <div className="h-full bg-zinc-900 border border-zinc-800 rounded-3xl shadow-sm p-8 transition-all duration-200 group-hover:shadow-xl group-hover:border-zinc-700">
+                    <div className="h-full bg-zinc-900 border border-zinc-800 rounded-3xl shadow-sm p-4 sm:p-6 md:p-8 lg:p-10 transition-all duration-200 group-hover:shadow-xl group-hover:border-zinc-700">
                       <div className="flex flex-col h-full">
                         <div className="mb-6">
                           <div className="text-lg font-bold mb-1 text-white">3. Growth Partner 72™</div>
@@ -1503,7 +1503,7 @@ export default function LandingPage() {
               <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/10 to-teal-500/10 rounded-3xl blur-xl -z-10"></div>
               <div className="bg-zinc-900 border border-zinc-800 rounded-3xl shadow-xl overflow-hidden">
                 <div className="grid grid-cols-1 lg:grid-cols-2">
-                  <div className="p-8 md:p-12">
+                  <div className="p-4 sm:p-6 md:p-8 lg:p-12">
                     <Badge className="bg-emerald-500/10 text-emerald-400 hover:bg-emerald-500/20 border-0 mb-6">
                       ¿Estás listo para escalar?
                     </Badge>
@@ -1534,7 +1534,7 @@ export default function LandingPage() {
                       </Button>
                     </div>
                   </div>
-                  <div className="bg-zinc-800/50 p-8 md:p-12">
+                  <div className="bg-zinc-800/50 p-4 sm:p-6 md:p-8 lg:p-12">
                     <h3 className="text-xl font-bold mb-6 text-white">Agenda una llamada</h3>
                     <div className="w-full">
                       <iframe
