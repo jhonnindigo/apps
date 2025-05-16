@@ -73,7 +73,7 @@ export default function WebRapidaPage() {
               <div className="space-y-4">
                 {/* Título con tamaño responsivo y gradiente de color */}
                 <h1 className="text-3xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-amber-400 to-orange-500">
-                  ⚡️ ¡Tu web lista en 24 horas por solo $20!
+                  ⚡️ ¡Tu web lista en 24 horas por solo $50!
                 </h1>
                 <p className="max-w-[600px] text-zinc-400 text-xl md:text-2xl mx-auto">
                   Sí, leíste bien. Una web profesional para tu negocio por solo $20 USD.
@@ -93,7 +93,7 @@ export default function WebRapidaPage() {
                   className="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white border-0 shadow-lg shadow-amber-500/20 rounded-full px-4 sm:px-8 h-12 sm:h-14 text-sm sm:text-base"
                   asChild
                 >
-                  <Link href="#comprar">QUIERO MI WEB POR SOLO $20</Link>
+                  <Link href="#comprar">QUIERO MI WEB POR SOLO $50</Link>
                 </Button>
                 <Button
                   size="lg"
@@ -154,6 +154,7 @@ export default function WebRapidaPage() {
                     "Diseño visual limpio y profesional",
                     "Código editable para que lo uses como quieras",
                     "Entregado en HTML + CSS (zip o directo a tu hosting)",
+                    "Dominio GRATIS por un año (.com o similar)",
                   ].map((item, index) => (
                     <div key={index} className="flex items-center gap-3">
                       <div className="h-10 w-10 rounded-full bg-zinc-800 flex items-center justify-center text-amber-400">
@@ -176,8 +177,8 @@ export default function WebRapidaPage() {
                       {/* Elemento no incluido: Dominio */}
                       <div className="flex items-center gap-3 p-4 bg-zinc-800/50 rounded-xl">
                         <div className="text-zinc-300">
-                          <span className="font-medium text-white block mb-1">Dominio</span>
-                          Puedes usar el que tengas o comprar uno aparte
+                          <span className="font-medium text-white block mb-1">Límite de correcciones</span>
+                          Solo se incluyen 3 correcciones o ajustes menores
                         </div>
                       </div>
                       {/* Elemento no incluido: Hosting */}
@@ -342,7 +343,7 @@ export default function WebRapidaPage() {
                   className="w-full bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white border-0 shadow-lg shadow-amber-500/20 rounded-full px-8 h-14 text-base"
                   asChild
                 >
-                  <Link href="#comprar">QUIERO MI WEB POR SOLO $20</Link>
+                  <Link href="#comprar">QUIERO MI WEB POR SOLO $50</Link>
                 </Button>
               </div>
             </div>
@@ -388,8 +389,8 @@ export default function WebRapidaPage() {
                       ¿Puedo pedir cambios?
                     </AccordionTrigger>
                     <AccordionContent className="text-zinc-400">
-                      Sí, un ajuste menor. Si quieres una web personalizada a fondo, te cotizamos aparte. Nuestro
-                      objetivo es entregarte algo funcional rápidamente.
+                      Sí, tienes derecho a 3 correcciones o ajustes menores. Si quieres una web personalizada a fondo,
+                      te cotizamos aparte. Nuestro objetivo es entregarte algo funcional rápidamente.
                     </AccordionContent>
                   </AccordionItem>
 
@@ -459,7 +460,7 @@ export default function WebRapidaPage() {
                       🎁 Tu negocio merece presencia online
                     </h2>
                     <p className="text-zinc-400 text-lg mb-8">
-                      Empieza hoy por solo $20. Sin compromisos a largo plazo. Sin costos ocultos.
+                      Empieza hoy por solo $50. Sin compromisos a largo plazo. Sin costos ocultos.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4">
                       <Button
@@ -536,7 +537,7 @@ export default function WebRapidaPage() {
 
                       {/* Botón de envío */}
                       <Button className="w-full bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white border-0 shadow-lg shadow-amber-500/20 rounded-xl h-12">
-                        Pagar $20 y solicitar mi web
+                        Pagar $50 y solicitar mi web
                       </Button>
 
                       {/* Nota legal */}
