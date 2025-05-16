@@ -1266,73 +1266,39 @@ export default function LandingPage() {
       </main>
 
       {/* Footer */}
-      <footer className="w-full py-12 bg-zinc-900 border-t border-zinc-800">
+      <footer className="w-full py-8 bg-zinc-900 border-t border-zinc-800">
         <div className="container px-4 md:px-6">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div className="space-y-4">
-              <div className="flex items-center gap-2">
-                <div className="h-8 w-8 rounded-full bg-gradient-to-br from-emerald-500 to-teal-700"></div>
-                <div className="font-bold text-xl tracking-tight text-white">IN Agencia</div>
-              </div>
-              <p className="text-sm text-zinc-400">Tu Growth Partner para dominar tu mercado local.</p>
-              <div className="flex gap-4">
-                {["twitter", "facebook", "instagram", "linkedin"].map((social) => (
-                  <Link key={social} href="#" className="text-zinc-400 hover:text-emerald-400">
-                    <span className="sr-only">{social}</span>
-                    <div className="h-6 w-6 rounded-full bg-zinc-800"></div>
-                  </Link>
-                ))}
-              </div>
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+            <div className="flex items-center gap-2">
+              <div className="h-8 w-8 rounded-full bg-gradient-to-br from-emerald-500 to-teal-700"></div>
+              <div className="font-bold text-xl tracking-tight text-white">IN Agencia</div>
             </div>
-            <div>
-              <h3 className="font-medium mb-4 text-white">Servicios</h3>
-              <ul className="space-y-2">
-                {["Growth Partner 72™", "SMMA Express", "Sistema Pro", "Consultoría", "Branding"].map((item) => (
-                  <li key={item}>
-                    <Link href="#" className="text-sm text-zinc-400 hover:text-emerald-400">
-                      {item}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+            <div className="flex flex-wrap justify-center gap-6">
+              <Link
+                href="https://inagencia.com/politica-de-privacidad/"
+                className="text-sm text-zinc-400 hover:text-emerald-400"
+              >
+                Política de Privacidad
+              </Link>
+              <Link
+                href="https://inagencia.com/politica-de-cookies/"
+                className="text-sm text-zinc-400 hover:text-emerald-400"
+              >
+                Política de Cookies
+              </Link>
+              <Link
+                href="https://inagencia.com/terminos-y-condiciones/"
+                className="text-sm text-zinc-400 hover:text-emerald-400"
+              >
+                Términos y Condiciones
+              </Link>
+              <Link href="/web-rapida" className="text-sm text-zinc-400 hover:text-emerald-400">
+                Web24h
+              </Link>
             </div>
-            <div>
-              <h3 className="font-medium mb-4 text-white">Empresa</h3>
-              <ul className="space-y-2">
-                {["Sobre nosotros", "Equipo", "Casos de éxito", "Blog", "Contacto"].map((item) => (
-                  <li key={item}>
-                    <Link href="#" className="text-sm text-zinc-400 hover:text-emerald-400">
-                      {item}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-medium mb-4 text-white">Legal</h3>
-              <ul className="space-y-2">
-                {["Términos de servicio", "Política de privacidad", "Cookies", "Aviso legal"].map((item) => (
-                  <li key={item}>
-                    <Link href="#" className="text-sm text-zinc-400 hover:text-emerald-400">
-                      {item}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-          <div className="mt-12 pt-8 border-t border-zinc-800 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-xs text-zinc-500">
               &copy; {new Date().getFullYear()} IN Agencia. Todos los derechos reservados.
             </p>
-            <div className="flex items-center gap-2">
-              <div className="h-8 px-3 rounded-full bg-zinc-800 flex items-center text-xs font-medium text-zinc-400">
-                🚀 Growth Partner
-              </div>
-              <div className="h-8 px-3 rounded-full bg-zinc-800 flex items-center text-xs font-medium text-zinc-400">
-                ⚡ Sistema en 72h
-              </div>
-            </div>
           </div>
         </div>
       </footer>
