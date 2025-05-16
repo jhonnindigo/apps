@@ -8,7 +8,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 /**
  * Web Rápida Landing Page
  *
- * Esta página promociona el servicio de creación de sitios web en 24 horas por $20.
+ * Esta página promociona el servicio de creación de sitios web en 24 horas por $50.
  * Utiliza un diseño oscuro con acentos en ámbar/naranja para transmitir urgencia y valor.
  *
  * Estructura:
@@ -25,10 +25,10 @@ export default function WebRapidaPage() {
   return (
     <div className="flex min-h-screen flex-col bg-zinc-950 text-zinc-100">
       {/* 
-        Header Navigation
-        - Fijo en la parte superior con efecto de desenfoque al hacer scroll
-        - Incluye logo de la agencia y CTA principal
-      */}
+       Header Navigation
+       - Fijo en la parte superior con efecto de desenfoque al hacer scroll
+       - Incluye logo de la agencia y CTA principal
+     */}
       <header className="sticky top-0 z-50 w-full border-b border-zinc-800 bg-zinc-950/80 backdrop-blur-md supports-[backdrop-filter]:bg-zinc-950/60">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
@@ -39,7 +39,7 @@ export default function WebRapidaPage() {
             asChild
             className="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white border-0 shadow-lg shadow-amber-500/20"
           >
-            <Link href="#comprar" className="flex items-center gap-2">
+            <Link href="https://api.leadconnectorhq.com/widget/bookings/holain" className="flex items-center gap-2">
               Comprar ahora
               <ArrowRight className="h-4 w-4" />
             </Link>
@@ -49,12 +49,12 @@ export default function WebRapidaPage() {
 
       <main className="flex-1">
         {/* 
-          Hero Section
-          - Presenta la oferta principal con un título grande y llamativo
-          - Incluye elementos de fondo para crear profundidad visual
-          - Adaptado para diferentes tamaños de pantalla con ajustes de texto
-          - Incluye CTAs principales y características destacadas
-        */}
+         Hero Section
+         - Presenta la oferta principal con un título grande y llamativo
+         - Incluye elementos de fondo para crear profundidad visual
+         - Adaptado para diferentes tamaños de pantalla con ajustes de texto
+         - Incluye CTAs principales y características destacadas
+       */}
         <section className="relative w-full py-12 md:py-20 lg:py-32 overflow-hidden">
           {/* Elementos de fondo con gradientes y desenfoque para crear profundidad */}
           <div className="absolute inset-0 -z-10">
@@ -76,7 +76,7 @@ export default function WebRapidaPage() {
                   ⚡️ ¡Tu web lista en 24 horas por solo $50!
                 </h1>
                 <p className="max-w-[600px] text-zinc-400 text-xl md:text-2xl mx-auto">
-                  Sí, leíste bien. Una web profesional para tu negocio por solo $20 USD.
+                  Sí, leíste bien. Una web profesional para tu negocio por solo $50 USD.
                   <span className="block mt-2 font-medium text-white">Nada de vueltas. Nada de letra pequeña.</span>
                 </p>
               </div>
@@ -84,16 +84,16 @@ export default function WebRapidaPage() {
               {/* Botones de CTA */}
               <div className="flex flex-col sm:flex-row gap-4">
                 {/* 
-                  Botón principal con diseño responsivo:
-                  - En móviles: más pequeño con menos padding
-                  - En desktop: más grande y espacioso
-                */}
+                 Botón principal con diseño responsivo:
+                 - En móviles: más pequeño con menos padding
+                 - En desktop: más grande y espacioso
+               */}
                 <Button
                   size="lg"
                   className="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white border-0 shadow-lg shadow-amber-500/20 rounded-full px-4 sm:px-8 h-12 sm:h-14 text-sm sm:text-base"
                   asChild
                 >
-                  <Link href="#comprar">QUIERO MI WEB POR SOLO $50</Link>
+                  <Link href="https://api.leadconnectorhq.com/widget/bookings/holain">QUIERO MI WEB POR SOLO $50</Link>
                 </Button>
                 <Button
                   size="lg"
@@ -128,11 +128,11 @@ export default function WebRapidaPage() {
         </section>
 
         {/* 
-          Features Section
-          - Muestra lo que incluye y no incluye el servicio
-          - Diseño de dos columnas en desktop, una columna en móvil
-          - Usa iconos y listas para mejorar la legibilidad
-        */}
+         Features Section
+         - Muestra lo que incluye y no incluye el servicio
+         - Diseño de dos columnas en desktop, una columna en móvil
+         - Usa iconos y listas para mejorar la legibilidad
+       */}
         <section className="w-full py-16 md:py-24 bg-zinc-900/50">
           <div className="container px-4 md:px-6">
             <div className="grid gap-12 lg:grid-cols-2 items-center">
@@ -210,11 +210,11 @@ export default function WebRapidaPage() {
         </section>
 
         {/* 
-          Why Section
-          - Explica la motivación detrás de la oferta
-          - Diseño centrado con tres tarjetas de beneficios
-          - Responsivo: una columna en móvil, tres en desktop
-        */}
+         Why Section
+         - Explica la motivación detrás de la oferta
+         - Diseño centrado con tres tarjetas de beneficios
+         - Responsivo: una columna en móvil, tres en desktop
+       */}
         <section className="w-full py-16 md:py-24 bg-zinc-950">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center text-center space-y-8 max-w-3xl mx-auto">
@@ -261,11 +261,11 @@ export default function WebRapidaPage() {
         </section>
 
         {/* 
-          Process Section
-          - Explica los requisitos y el tiempo de entrega
-          - Diseño de dos columnas en desktop, una columna en móvil
-          - Incluye elementos visuales para destacar la urgencia
-        */}
+         Process Section
+         - Explica los requisitos y el tiempo de entrega
+         - Diseño de dos columnas en desktop, una columna en móvil
+         - Incluye elementos visuales para destacar la urgencia
+       */}
         <section className="w-full py-16 md:py-24 bg-zinc-900/50">
           <div className="container px-4 md:px-6">
             <div className="grid gap-12 lg:grid-cols-2 items-center">
@@ -343,7 +343,7 @@ export default function WebRapidaPage() {
                   className="w-full bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white border-0 shadow-lg shadow-amber-500/20 rounded-full px-8 h-14 text-base"
                   asChild
                 >
-                  <Link href="#comprar">QUIERO MI WEB POR SOLO $50</Link>
+                  <Link href="https://api.leadconnectorhq.com/widget/bookings/holain">QUIERO MI WEB POR SOLO $50</Link>
                 </Button>
               </div>
             </div>
@@ -351,11 +351,11 @@ export default function WebRapidaPage() {
         </section>
 
         {/* 
-          FAQ Section
-          - Preguntas frecuentes con componente Accordion
-          - Diseño centrado para mejor legibilidad
-          - Cada pregunta se expande/colapsa al hacer clic
-        */}
+         FAQ Section
+         - Preguntas frecuentes con componente Accordion
+         - Diseño centrado para mejor legibilidad
+         - Cada pregunta se expande/colapsa al hacer clic
+       */}
         <section id="faq" className="w-full py-16 md:py-24 bg-zinc-950">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center text-center space-y-8 max-w-3xl mx-auto">
@@ -433,11 +433,11 @@ export default function WebRapidaPage() {
         </section>
 
         {/* 
-          CTA Section
-          - Sección final de llamada a la acción con formulario
-          - Diseño de dos columnas en desktop, una columna en móvil
-          - Incluye formulario de contacto completo
-        */}
+         CTA Section
+         - Sección final de llamada a la acción con formulario
+         - Diseño de dos columnas en desktop, una columna en móvil
+         - Incluye formulario de contacto completo
+       */}
         <section id="comprar" className="w-full py-20 md:py-32 relative overflow-hidden">
           {/* Elementos de fondo con gradientes y desenfoque */}
           <div className="absolute inset-0 -z-10">
@@ -466,8 +466,11 @@ export default function WebRapidaPage() {
                       <Button
                         size="lg"
                         className="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white border-0 shadow-lg shadow-amber-500/20 rounded-full px-8 h-14 text-base"
+                        asChild
                       >
-                        SOLICITAR MI WEB AHORA
+                        <Link href="https://api.leadconnectorhq.com/widget/bookings/holain">
+                          SOLICITAR MI WEB AHORA
+                        </Link>
                       </Button>
                       <Button
                         size="lg"
@@ -482,75 +485,16 @@ export default function WebRapidaPage() {
 
                   {/* Columna derecha: Formulario de contacto */}
                   <div className="bg-zinc-800/50 p-8 md:p-12">
-                    <h3 className="text-xl font-bold mb-6 text-white">Solicita tu web ahora</h3>
-                    <form className="space-y-4">
-                      {/* Campo: Nombre */}
-                      <div className="space-y-2">
-                        <label htmlFor="name" className="text-sm font-medium text-zinc-300">
-                          Nombre
-                        </label>
-                        <input
-                          id="name"
-                          className="flex h-12 w-full rounded-xl border border-zinc-700 bg-zinc-900 px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-zinc-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 text-white"
-                          placeholder="Tu nombre o el de tu negocio"
-                          type="text"
-                        />
-                      </div>
-
-                      {/* Campo: Email */}
-                      <div className="space-y-2">
-                        <label htmlFor="email" className="text-sm font-medium text-zinc-300">
-                          Email
-                        </label>
-                        <input
-                          id="email"
-                          className="flex h-12 w-full rounded-xl border border-zinc-700 bg-zinc-900 px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-zinc-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 text-white"
-                          placeholder="tu@email.com"
-                          type="email"
-                        />
-                      </div>
-
-                      {/* Campo: Teléfono (opcional) */}
-                      <div className="space-y-2">
-                        <label htmlFor="phone" className="text-sm font-medium text-zinc-300">
-                          Teléfono (opcional)
-                        </label>
-                        <input
-                          id="phone"
-                          className="flex h-12 w-full rounded-xl border border-zinc-700 bg-zinc-900 px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-zinc-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 text-white"
-                          placeholder="+1 (555) 000-0000"
-                          type="tel"
-                        />
-                      </div>
-
-                      {/* Campo: Descripción del negocio */}
-                      <div className="space-y-2">
-                        <label htmlFor="description" className="text-sm font-medium text-zinc-300">
-                          Breve descripción de tu negocio
-                        </label>
-                        <textarea
-                          id="description"
-                          className="flex min-h-[100px] w-full rounded-xl border border-zinc-700 bg-zinc-900 px-3 py-2 text-sm ring-offset-background placeholder:text-zinc-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 text-white"
-                          placeholder="Cuéntanos brevemente a qué te dedicas"
-                        ></textarea>
-                      </div>
-
-                      {/* Botón de envío */}
-                      <Button className="w-full bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white border-0 shadow-lg shadow-amber-500/20 rounded-xl h-12">
-                        Pagar $50 y solicitar mi web
-                      </Button>
-
-                      {/* Nota legal */}
-                      <p className="text-xs text-zinc-400 text-center">
-                        Al enviar este formulario, aceptas nuestros{" "}
-                        <Link
-                          href="https://inagencia.com/terminos-y-condiciones/"
-                          className="underline underline-offset-2 hover:text-amber-400"
-                        >
-                          Términos y Condiciones
-                        </Link>
-                      </p>
-                    </form>
+                    <h3 className="text-xl font-bold mb-6 text-white">Agenda tu web ahora</h3>
+                    <div className="w-full">
+                      <iframe
+                        src="https://api.leadconnectorhq.com/widget/booking/qDtJT8nCZkrf8TJOoqBx"
+                        style={{ width: "100%", border: "none", overflow: "hidden", minHeight: "600px" }}
+                        scrolling="no"
+                        id="qDtJT8nCZkrf8TJOoqBx_1747423256878"
+                      ></iframe>
+                      <script src="https://link.msgsndr.com/js/form_embed.js" type="text/javascript"></script>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -560,11 +504,11 @@ export default function WebRapidaPage() {
       </main>
 
       {/* 
-        Footer Simplificado
-        - Diseño centrado y compacto
-        - Incluye logo, enlaces legales y copyright
-        - Enlace a la otra landing page (Growth Partner 72™)
-      */}
+       Footer Simplificado
+       - Diseño centrado y compacto
+       - Incluye logo, enlaces legales y copyright
+       - Enlace a la otra landing page (Growth Partner 72™)
+     */}
       <footer className="w-full py-6 bg-zinc-900 border-t border-zinc-800">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center gap-4">
